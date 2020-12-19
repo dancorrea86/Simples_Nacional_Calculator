@@ -1,7 +1,7 @@
 from flask import Flask, request
 import locale
 
-from script import SimplesTaxCalculator
+from scripts.script import SimplesTaxCalculator
 
 app = Flask(__name__)
 locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
