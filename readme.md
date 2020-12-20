@@ -47,7 +47,7 @@ Open the project paste in the terminal, and with the "venv" activate run the fil
 
 ![alt text](./readme/terminal.png)
 
-The browser with the index.html is going to be the client-side and the python file "main.py" going to be the server-side the receives the http form and use the file "script.py" to make the calculation, that will return to the browser.
+The browser with the file 'index.html' is going to be the client-side and the python file "main.py" going to be the server-side the receives the http form and use the file "script.py" to make the calculation, that will return to the browser.
 
 
 
