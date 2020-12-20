@@ -19,7 +19,7 @@ Or dowloading the project in the github page:
 
 ![alt text](./readme/clone_project.png)
 
-With Python installed in your machine, install the module Virtualenv.
+Withd Python installed in your machine, install the module Virtualenv.
 
 > pip install virtualenv
 
