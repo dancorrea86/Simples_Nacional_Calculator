@@ -35,6 +35,10 @@ Now install the flask module in the "venv", using the command:
 
 > pip install Flask
 
+And install the request module:
+
+> pip install requests
+
 # How to use
 
 With the project in your local machine, open the index.html file in the browser
