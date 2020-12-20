@@ -28,6 +28,7 @@ With Python installed in your machine, install the module Virtualenv, using the 
 And after the installation, in the paste of the project, create de "venv" and activate the "venv" with the commands:
 
 > python -m venv venv
+
 > venv\Scripts\activate.bat
 
 ![alt text](./readme/terminal_3.png)
