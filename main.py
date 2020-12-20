@@ -16,12 +16,12 @@ def handle_data():
     revenue_month = float(revenue_month.replace(',','.'))
 
     app = SimplesTaxCalculator(revenues_twelve_months, attachment, revenue_month)
-    print(app.return_results())
+    # print(app.return_results())
 
     rate = app.return_results()[0]
     value = app.return_results()[1]
 
-    msg = ("""A alíquota do Simples Nacional é %s
+    msg = ("""A alíquota do Simples Nacional é %s  - 
             O valor do Simples Nacional: %s""" % (rate, value))
 
     return (msg)

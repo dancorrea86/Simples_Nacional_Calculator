@@ -6,7 +6,7 @@ function validateForm() {
     }
     var x = document.forms["myForm"]["revenues-twelve-months"].value;
     if (parseFloat(parseFloat(x.replace(/\./g, "").replace(",","."))) > 4800000)  {
-      alert("Valor acima do limete do Simples Nacional");
+      alert("Valor acima do limite do Simples Nacional");
       return false;
     }
 
