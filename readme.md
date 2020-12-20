@@ -36,11 +36,7 @@ And after the installation, in the paste of the project, create de "venv" and ac
 
 Now install the flask module in the "venv", using the command:
 
-> pip install Flask
-
-And install the request module:
-
-> pip install requests
+> pip install -r requirements.txt
 
 # How to use
 
