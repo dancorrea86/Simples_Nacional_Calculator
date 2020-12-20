@@ -19,17 +19,18 @@ Or dowloading the project in the github page:
 
 ![alt text](./readme/clone_project.png)
 
-With Python installed in your machine, install the module Virtualenv.
+With Python installed in your machine, install the module Virtualenv, using the terminal, go to the project paste and create the "venv", using the command:
 
 > pip install virtualenv
 
-Using the terminal, go to the project paste and create the "venv", using the command:
+![alt text](./readme/terminal_2.png)
 
-> pip install virtualenv
+And after the installation, in the paste of the project, create de "venv" and activate the "venv" with the commands:
 
-And after the installation, activate the "venv" with the command:
+> python -m venv venv
+> venv\Scripts\activate.bat
 
-> venv_name\Scripts\activate.bat
+![alt text](./readme/terminal_3.png)
 
 Now install the flask module in the "venv", using the command:
 
