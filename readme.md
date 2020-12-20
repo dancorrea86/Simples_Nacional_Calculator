@@ -6,6 +6,7 @@ This project is for the calculation of "Simples Nacional", tax regime for little
 
 - Python 3
 - Flask (Python module)
+- Request (Python module)
 
 # Getting started
 
